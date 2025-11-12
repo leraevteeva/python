@@ -10,6 +10,7 @@ def month_to_season(month):
     else:
         return "Некорректный номер месяца"
 
+
 month_number = 2
 result = month_to_season(month_number)
 print(f"Месяц {month_number}: {result}")

@@ -1,4 +1,4 @@
-def fizz_buzz(n):
+def fizz_buzz(n: int) -> None:
     for i in range(1, n + 1):
         if i % 3 == 0 and i % 5 == 0:
             print("FizzBuzz")
@@ -9,4 +9,6 @@ def fizz_buzz(n):
         else:
             print(i)
 
-fizz_buzz(17)
+
+if __name__ == "__main__":
+    fizz_buzz(17)
